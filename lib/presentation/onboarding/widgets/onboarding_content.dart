@@ -30,7 +30,8 @@ class OnboardingContent extends StatelessWidget {
                 height: 77,
               ),
               SizedBox(
-                height: context.deviceWidth * 0.75,
+                height: context.deviceWidth * 0.7,
+                width: context.deviceWidth * 0.7,
                 child: Image.asset(
                   content[index].image,
                   fit: BoxFit.cover,

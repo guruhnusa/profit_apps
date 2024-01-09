@@ -26,6 +26,8 @@ flutter:
   uses-material-design: true
   assets:
     - assets/images/onboarding/
+    - assets/images/logo/
+    - assets/images/
 
 flutter_gen:
   output: lib/core/assets/

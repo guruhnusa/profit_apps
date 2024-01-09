@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'package:profit/presentation/onboarding/pages/onboarding_page.dart';
 
 void main() {

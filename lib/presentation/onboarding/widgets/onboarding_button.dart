@@ -39,9 +39,9 @@ class OnboardingBottom extends StatelessWidget {
         ),
         TextButton(
           onPressed: next,
-          child: const Text(
-            "Next",
-            style: TextStyle(
+          child: Text(
+            currentPage == 2 ? "Start" : "Next",
+            style: const TextStyle(
               color: Color(0xFFF47100),
               fontSize: 18,
               fontWeight: FontWeight.w500,
