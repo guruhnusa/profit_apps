@@ -5,7 +5,7 @@ import 'package:profit/core/extensions/build_context_ext.dart';
 import 'package:profit/presentation/authentication/pages/login_page.dart';
 import 'package:profit/presentation/onboarding/models/onboarding_model.dart';
 import 'package:profit/presentation/onboarding/widgets/onboarding_content.dart';
-import '../widgets/onboarding_button.dart';
+import '../widgets/onboarding_bottom.dart';
 
 class OnboardingPage extends StatefulWidget {
   const OnboardingPage({super.key});
