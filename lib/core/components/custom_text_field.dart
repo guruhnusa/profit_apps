@@ -40,8 +40,7 @@ class _CustomTextFieldState extends State<CustomTextField> {
         decoration: InputDecoration(
           suffixIcon: widget.obscureText
               ? IconButton(
-                  // ignore: prefer_const_constructors
-                  padding: EdgeInsets.symmetric(vertical: 0),
+                  padding: const EdgeInsets.symmetric(vertical: 0),
                   onPressed: () {
                     setState(() {
                       _obscure = !_obscure;
