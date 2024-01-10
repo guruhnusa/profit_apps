@@ -5,6 +5,7 @@ import 'package:profit/core/components/custom_text_field.dart';
 import 'package:profit/core/constant/colors.dart';
 import 'package:profit/core/extensions/build_context_ext.dart';
 import 'package:profit/presentation/authentication/pages/register_page.dart';
+import 'package:profit/presentation/home/pages/dashboard_page.dart';
 
 import '../widgets/hello_text.dart';
 
@@ -88,7 +89,9 @@ class _LoginPageState extends State<LoginPage> {
           ),
           const SizedBox(height: 20),
           Button.filled(
-            onPressed: () {},
+            onPressed: () {
+              context.push(const DashboardPage());
+            },
             label: "Login",
             height: 57,
           ),

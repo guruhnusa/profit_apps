@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:profit/presentation/home/pages/home_page.dart';
 
 import '../widgets/navbar_menu.dart';
 
@@ -19,7 +20,7 @@ class _DashboardPageState extends State<DashboardPage> {
   }
 
   final List<Widget> pages = [
-    const Center(child: Text("Home")),
+    const HomePage(),
     const Center(child: Text("Discourse")),
     const Center(child: Text("Media")),
     const Center(child: Text("Entry")),
