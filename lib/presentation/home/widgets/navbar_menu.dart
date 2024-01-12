@@ -25,18 +25,10 @@ class NavbarMenu extends StatelessWidget {
           ? Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                Container(
-                  height: 32,
-                  width: 64,
-                  decoration: BoxDecoration(
-                    color: AppColors.primary.withOpacity(0.2),
-                    borderRadius: BorderRadius.circular(20),
-                  ),
-                  child: Icon(
-                    iconPath,
-                    size: 25,
-                    color: AppColors.primary,
-                  ),
+                Icon(
+                  iconPath,
+                  size: 25,
+                  color: AppColors.primary,
                 ),
                 const SizedBox(
                   width: 10,
@@ -44,8 +36,8 @@ class NavbarMenu extends StatelessWidget {
                 Text(
                   iconLabel,
                   style: const TextStyle(
-                      fontSize: 15,
-                      fontWeight: FontWeight.w500,
+                      fontSize: 12,
+                      fontWeight: FontWeight.w600,
                       color: AppColors.primary),
                 ),
               ],
@@ -53,9 +45,6 @@ class NavbarMenu extends StatelessWidget {
           : Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                const SizedBox(
-                  height: 5,
-                ),
                 Icon(
                   iconPath,
                   size: 25,
@@ -67,8 +56,8 @@ class NavbarMenu extends StatelessWidget {
                 Text(
                   iconLabel,
                   style: TextStyle(
-                    fontSize: 15,
-                    fontWeight: FontWeight.w500,
+                    fontSize: 12,
+                    fontWeight: FontWeight.w600,
                     color: const Color(0xFF49454F).withOpacity(0.3),
                   ),
                 ),

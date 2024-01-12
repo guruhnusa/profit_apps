@@ -12,15 +12,57 @@ import 'package:flutter/widgets.dart';
 class $AssetsImagesGen {
   const $AssetsImagesGen();
 
+  $AssetsImagesBannerGen get banner => const $AssetsImagesBannerGen();
+
   /// File path: assets/images/hand.png
   AssetGenImage get hand => const AssetGenImage('assets/images/hand.png');
+
+  $AssetsImagesIconGen get icon => const $AssetsImagesIconGen();
+
+  /// File path: assets/images/idea.png
+  AssetGenImage get idea => const AssetGenImage('assets/images/idea.png');
 
   $AssetsImagesLogoGen get logo => const $AssetsImagesLogoGen();
   $AssetsImagesOnboardingGen get onboarding =>
       const $AssetsImagesOnboardingGen();
 
   /// List of all assets
-  List<AssetGenImage> get values => [hand];
+  List<AssetGenImage> get values => [hand, idea];
+}
+
+class $AssetsImagesBannerGen {
+  const $AssetsImagesBannerGen();
+
+  /// File path: assets/images/banner/banner1.png
+  AssetGenImage get banner1 =>
+      const AssetGenImage('assets/images/banner/banner1.png');
+
+  /// File path: assets/images/banner/banner2.png
+  AssetGenImage get banner2 =>
+      const AssetGenImage('assets/images/banner/banner2.png');
+
+  /// List of all assets
+  List<AssetGenImage> get values => [banner1, banner2];
+}
+
+class $AssetsImagesIconGen {
+  const $AssetsImagesIconGen();
+
+  /// File path: assets/images/icon/hand.png
+  AssetGenImage get hand => const AssetGenImage('assets/images/icon/hand.png');
+
+  /// File path: assets/images/icon/lamp.png
+  AssetGenImage get lamp => const AssetGenImage('assets/images/icon/lamp.png');
+
+  /// File path: assets/images/icon/money.png
+  AssetGenImage get money =>
+      const AssetGenImage('assets/images/icon/money.png');
+
+  /// File path: assets/images/icon/task.png
+  AssetGenImage get task => const AssetGenImage('assets/images/icon/task.png');
+
+  /// List of all assets
+  List<AssetGenImage> get values => [hand, lamp, money, task];
 }
 
 class $AssetsImagesLogoGen {

@@ -21,7 +21,7 @@ class _DashboardPageState extends State<DashboardPage> {
 
   final List<Widget> pages = [
     const HomePage(),
-    const Center(child: Text("Discourse")),
+    const Center(child: Text("Consult")),
     const Center(child: Text("Media")),
     const Center(child: Text("Entry")),
     const Center(child: Text("Profile")),
@@ -32,9 +32,11 @@ class _DashboardPageState extends State<DashboardPage> {
       body: pages[selectedIndex],
       bottomNavigationBar: Container(
           color: const Color(0xFFF3EDF7),
-          height: 70,
+          height: 65,
           child: Padding(
-            padding: const EdgeInsets.only(top: 10, bottom: 5),
+            padding: const EdgeInsets.only(
+              top: 15,
+            ),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
@@ -49,7 +51,7 @@ class _DashboardPageState extends State<DashboardPage> {
                 NavbarMenu(
                     selectedIndex: selectedIndex,
                     iconPath: Icons.chat_bubble,
-                    iconLabel: "Discourse",
+                    iconLabel: "Consult",
                     onTap: () {
                       navigateToPage(1);
                     },

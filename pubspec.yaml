@@ -27,6 +27,8 @@ flutter:
   assets:
     - assets/images/onboarding/
     - assets/images/logo/
+    - assets/images/icon/
+    - assets/images/banner/
     - assets/images/
 
 flutter_gen:
